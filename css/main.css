@@ -1,0 +1,12 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(15, 50px);
+}
+
+.tile {
+  min-width: 50px;
+  min-height: 50px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 50px;
+}
